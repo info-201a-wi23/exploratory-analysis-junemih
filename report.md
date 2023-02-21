@@ -1,15 +1,108 @@
 # Exploratory Analysis Report
 
 
-## Music Trends Throught the Years
+## Music Trends Throughout the Years
 ### June Hong (junehong@uw.edu), Deborah Kwon (dnkwon@uw.edu), Abigail Setiawan (tsetia@uw.edu), Paul Lam (paul0h@uw.edu)
 
 
-In our first chart, we can see that happy songs dominated from 1963 up until 2000. This is most likely because energetic and calm songs were not tracked at the time. However, when looking at sad and happy songs, the typical trend for when the valence of happy songs dropped was because of major events taking place both political and economical. Taking a look at the early 1990's recession, the first few years of the recession resulted in an increase of sad songs and decrease of happy songs. Another example is from 2007 to 2008, happy music dropped when a recession first took place. We can also take a look at around 2019 and 2020 when COVID 19 happened, there was a drop in happy music and sad music dominated. This is due to many factors caused by the pandemic and many more issues. This resulted in an increase of mental health issues, economical issues, and sociological issues that ultimately brought down everyone mood which can be seen through the music being put out. Another case to look at was 1995 to 1999 where energetic music was soaring and happy music valence was high for the most part. This was the dot com era where many became rich and where massive growth of internet happened. However, not soon after, the dot com bust which caused the stock market to crash in 2000, completely plummeting everyone's mood hence the drastic drop in happy music.
+### Abstract
 
-In our second chart, it is shown that throughout the years, the average length of songs increase and decrease based off of what and how much people had to say. The most noticeable year is 1994 which was arguably one of the best years of music of all time. This is because this was the start of pre dot com, people were happy, the state of the economy was recovering from the early 1990's recession it was a great year for movies, and there was a lot to talk about. Spikes in average song length can also be closely correlated to happy song mood as well. In cases where happy songs had the highest mean valance, song lengths typically had longer times as well. A case study that analyzed conversations among 20,000 people found that happy people tend to be more talkative. This coloration was found based off people who were happier having not only longer conversations but less small chat and more substantive conversations. This study helps show the linkage between peoples emotions and moods playing a big role on how much they talk and say or in this case, their music.
 
-In our third chart, it is shown that the tempo of a song correlates closely with the emotions of the listeners after the song is played. Fast tempos correlate with happiness and feeling energetic, whereas songs with slow tempos correlate closely with feelings of sadness or calm. While this may suggest that music can cause these feelings to arise, it can also be seen as a way of reinforcing existing emotions as well. Perhaps listeners feel validated and can dwell on their emotions better when listening to music that makes them feel well-understood. It is unclear whether, for example, sad people tend to listen to slow music more to reinforce and help them feel understood in their sadness, or if slow music tends to make people feel sad. It could also be a two-way street, where people who feel those emotions tend to be drawn to the correlating music, which further reinforces those emotions and causes them to be more prevelant or strong in the listeners' lives.
+Our main question is how do music trends reflect patterns in society? This question is important because the music people consume has a deep tie to their opinions and emotions, which can change when large events happen in the world. We are concerned with music trends and how they changed around major world events because it can reflect the mindset that people may have had at the time.
 
-Link to your group's exploratory analysis here: https://info-201a-sp22.github.io/Exploratory-Analysis/index.html  
-(subsitute for your group's GitHub pages site)
+
+### Keywords
+
+
+Music trends, user consumption, pop culture.
+
+
+### Proposal
+
+
+### Introduction
+
+
+Music is an essential part of our lives. Whether we are studying, working out, hanging with friends, music is always there. The presence of music helps us when we are sad, motivates us when we’re lazy, and can calm us down. However, today’s popular music genres are not the same as when our grandparents were kids. When our grandparents were kids, they listened to rock n roll in the 1950’s. Nowadays, we listen to all sorts of music with R&B/hip-hop, Latin, rock, pop, and world music accounting for the top five most popular genres. What has influenced all these music changes throughout the years? What roles do political, sociological, and economical challenges play in the popular music genres throughout the years? When we are sad, we listen to soft music and when we are happy, we listen to upbeat music. Music choice is chosen based on one’s mood. Could emotions caused by daily life challenges be a player in the changes of popular music genres? It is important to track these trends because over the course of the past century, so much has changed and happened in our world. Tracking music trends can help us analyze what people were feeling at the time and take a peek into what life was like for each century.
+
+
+### Related Work
+
+
+This project will be looking at music trends throughout the years. Music trends can reflect broader events and patterns in society, such as the rise of social media, changing perceptions of the world, political unrest, economical changes, and great tragedies. Listening to music also has a deeply psychological effect, and can impact the listener’s mindset, mood, energy levels, stress levels, and memory. Christopher Rea’s study (2010) focused on the correlation between certain music genres and people’s mood, by recording participants’ moods before and after listening to music genres such as rock, classical, and pop. Stefan Hall’s article (2020) describes the effect of the Covid-19 pandemic on the music industry, such as the increase in broadcasted live performances, the changes in the global music industry’s revenue, and changes in advertising for newly released music. Kamran Ahmed’s article discusses the impact of historical events on the music industry (2022), such as the first ever music academy being built, the Romanticism cultural movement, and the Renaissance. Recording music trends is important because it can reflect broader themes than what meets the eye: oftentimes, changes in music’s genre and style often goes hand in hand with the mindsets of the people listening to the music. This can be caused by the changing world and sentiments as time progresses.
+
+
+### Citations:
+
+
+Hall, S.B. (2020) This is how covid-19 is affecting the music industry, World Economic Forum. Available at: https://www.weforum.org/agenda/2020/05/this-is-how-covid-19-is-affecting-the-music-industry/ (Accessed: January 30, 2023).
+
+
+Ahmed, K. (2022) Influence of historical events on music, Stage Music Center In Acton and Winchester MA. Stage Music Center In Acton and Winchester MA. Available at: https://stagemusiccenter.com/music-school-blog-winchester-acton-ma/2022/10/1/influence-of-historical-events-on-music (Accessed: January 31, 2023).
+
+
+Rea, C. (2010) Listening to classical, pop, and metal music: An investigation of mood, Emporia State Research Studies. Available at: https://esirc.emporia.edu/bitstream/handle/123456789/381/205.1.pdf?sequence=1 (Accessed: January 31, 2023).
+
+
+### The Dataset
+
+
+Where did you find the data? Please include a link to the data source
+https://www.kaggle.com/datasets/musicblogger/spotify-music-data-to-identify-the-moods?resource=download
+
+
+Who collected the data?
+Spotify
+
+
+How was the data collected or generated?
+Not specified.
+
+
+Why was the data collected?
+Not specified.
+
+
+How many observations (rows) are in your data?
+686
+
+
+How many features (columns) are in the data?
+19
+
+
+What, if any, ethical questions or questions of power do you need to consider when working with this data?
+There are not any apparent questions of power or ethical questions to think about with our data.
+
+
+What are possible limitations or problems with this data? (at least 200 words) In the case of the dataset that we chose, some characteristics in the form of numbers did not include a unit, which could be ambiguous to implicate since some characteristics have multiple units that could be applied, for example is the song length column. Another example is the key column which has numbers from 1-11 as indication of the key the song is played in, which is unclear what the numbers exactly represent in the music. For this reason, this data set could be hard to work with for people with no music knowledge as it does not include a code book or other forms of resources to provide detail on the columns. It is also unstated how and for what purpose the data was generated, so the legitimacy of the dataset is a subject to obscurity. Some of the dates inside the year category also do not have a specific date of release and only mentions the year it was released, which is inconsistent. Some columns in the dataset are also filled with “0” which could mean that those specific characters in the data are “0”, but it could also mean that some data are missing. Finally, the “mood” column in the data has a relatively narrow selection of moods, considering human’s complex emotions.
+
+
+### Implications
+
+
+The results from our project aim to show and analyze the music trends since the 1900s, up until now. The data is important in terms of understanding how music has changed over the years, relative to various decades but also in absolute terms for how different music was in the 1900s versus today in 2023. But also it has potential, deep implications for sociological, cultural, and political reasons. Tied to certain events and eras, it will be interesting to see the changes in music in the eras of the roaring ‘20s, the Great Depression, Civil Rights movement, and the overall clearly defined cultures that surrounded the ‘70s, ‘80s, and ‘90s as decades. Based on the findings, it could help inform the impact of music on the broader culture and possible politics of the time period — as well as help inform and predict (possibly) how trends in music might change in the decades to come.
+
+
+### Limitations & Challenges
+
+
+Given that we’re looking at a long span of music reaching back to the 1900s to now, it’s hard to really address the intricacies of the entire range of music people consumed over the years. We’re definitely looking at things with a more broad, top level approach and some trends might be missed. This is something to keep in mind as we look at the data and consider the trends we look at. It’s also very possible that there could be confounding variables that we miss out on when looking at how music has changed over the years. Music and culture can be volatile when it comes to pinpointing reasons for trends. So in general, it’ll be important to keep an attention to detail, and take a look at all the different categories in our dataset, in order to make the most informed observations and analysis about the topic.
+
+
+### Chart Analysis
+
+
+In our first chart, we can see that happy songs dominated from 1963 up until 2000. This is most likely because energetic and calm songs were not tracked at the time. However, when looking at sad and happy songs, the typical trend for when the valence of happy songs dropped was because of major events taking place both political and economical. Taking a look at the early 1990's recession, the first few years of the recession resulted in an increase of sad songs and decrease of happy songs. Another example is from 2007 to 2008, happy music dropped when a recession first took place. We can also take a look at around 2019 and 2020 when COVID 19 happened, there was a drop in happy music and sad music dominated. This is due to many factors caused by the pandemic and many more issues. This resulted in an increase of mental health issues, economical issues, and sociological issues that ultimately brought down everyone's mood which can be seen through the music being put out. Another case to look at was 1995 to 1999 where energetic music was soaring and happy music valence was high for the most part. This was the dot com era where many became rich and where massive growth of the internet happened. However, not soon after, the dot com bust which caused the stock market to crash in 2000, completely plummeting everyone's mood hence the drastic drop in happy music.
+
+
+In our second chart, it is shown that throughout the years, the average length of songs increase and decrease based on what and how much people had to say. The most noticeable year is 1994 which was arguably one of the best years of music of all time. This is because this was the start of pre dot com, people were happy, the state of the economy was recovering from the early 1990's recession, it was a great year for movies, and there was a lot to talk about. Spikes in average song length can also be closely correlated to happy song mood as well. In cases where happy songs had the highest mean valence, song lengths typically had longer times as well. A case study that analyzed conversations among 20,000 people found that happy people tend to be more talkative. This coloration was found based on people who were happier having not only longer conversations but less small chat and more substantive conversations. This study helps show the linkage between people's emotions and moods playing a big role on how much they talk and say or in this case, their music.
+
+
+In our third chart, it is shown that the tempo of a song correlates closely with the emotions of the listeners after the song is played. Fast tempos correlate with happiness and feeling energetic, whereas songs with slow tempos correlate closely with feelings of sadness or calm. While this may suggest that music can cause these feelings to arise, it can also be seen as a way of reinforcing existing emotions as well. Perhaps listeners feel validated and can dwell on their emotions better when listening to music that makes them feel well-understood. It is unclear whether, for example, sad people tend to listen to slow music more to reinforce and help them feel understood in their sadness, or if slow music tends to make people feel sad. It could also be a two-way street, where people who feel those emotions tend to be drawn to the correlating music, which further reinforces those emotions and causes them to be more prevalent or strong in the listeners' lives.
+
+
+Link to exploratory analysis here: https://github.com/info-201a-wi23/exploratory-analysis-junemih
+
+
+
