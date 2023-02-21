@@ -17,8 +17,7 @@ Our main question is how do music trends reflect patterns in society? This quest
 Music trends, user consumption, pop culture.
 
 
-### Proposal
-
+## Proposal
 
 ### Introduction
 
