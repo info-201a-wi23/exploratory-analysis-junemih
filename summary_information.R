@@ -1,4 +1,4 @@
-### This calculates summary information to be included in the report
+### This program calculates summary information to be included in the report
 
 # Load libraries
 library("tidyverse")
