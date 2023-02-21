@@ -1,14 +1,35 @@
-# Exploratory Analysis Report
-
-
-## Music Trends Throught the Years
-### June Hong (junehong@uw.edu), Deborah Kwon (dnkwon@uw.edu), Abigail Setiawan (tsetia@uw.edu), Paul Lam (paul0h@uw.edu)
-
-In our first chart, we can see that happy songs dominated from 1963 up until 2000. This is most likely because energetic and calm songs were not tracked at the time. However, when looking at sad and happy songs, the typical trend for when the valence of happy songs dropped was because of major events taking place both political and economical. Taking a look at the early 1990's recession, the first few years of the recession resulted in an increase of sad songs and decrease of happy songs. Another example is from 2007 to 2008, happy music dropped when a recession first took place. We can also take a look at around 2019 and 2020 when COVID 19 happened, there was a drop in happy music and sad music dominated. This is due to many factors caused by the pandemic and many more issues. This resulted in an increase of mental health issues, economical issues, and sociological issues that ultimately brought down everyone mood which can be seen through the music being put out. Another case to look at was 1995 to 1999 where energetic music was soaring and happy music valence was high for the most part. This was the dot com era where many became rich and where massive growth of internet happened. However, not soon after, the dot com bust which caused the stock market to crash in 2000, completely plummeting everyone's mood hence the drastic drop in happy music. 
-
-In our second chart, it is shown that throughout the years, the average length of songs increase and decrease based off of what and how much people had to say. The most noticeable year is 1994 which was arguably one of the best years of music of all time. This is because this was the start of pre dot com, people were happy, the state of the economy was recovering from the early 1990's recession it was a great year for movies, and there was a lot to talk about. Spikes in average song length can also be closely correlated to happy song mood as well. In cases where happy songs had the highest mean valance, song lengths typically had longer times as well. A case study that analyzed conversations among 20,000 people found that happy people tend to be more talkative. This coloration was found based off people who were happier having not only longer conversations but less small chat and more substantive conversations. This study helps show the linkage between peoples emotions and moods playing a big role on how much they talk and say or in this case, their music. 
-
-In our third chart, it is shown that the tempo of a song correlates closely with the emotions of the listeners after the song is played. Fast tempos correlate with happiness and feeling energetic, whereas songs with slow tempos correlate closely with feelings of sadness or calm. While this may suggest that music can cause these feelings to arise, it can also be seen as a way of reinforcing existing emotions as well. Perhaps listeners feel validated and can dwell on their emotions better when listening to music that makes them feel well-understood. It is unclear whether, for example, sad people tend to listen to slow music more to reinforce and help them feel understood in their sadness, or if slow music tends to make people feel sad. It could also be a two-way street, where people who feel those emotions tend to be drawn to the correlating music, which further reinforces those emotions and causes them to be more prevelant or strong in the listeners' lives.
+# Exploratory Analysis
 
 Link to your group's exploratory analysis here: https://info-201a-sp22.github.io/Exploratory-Analysis/index.html   
 (subsitute for your group's GitHub pages site)
+
+The purpose of this assignment is to provide you with the opportunity to explore your final project data and become familiar with collaborative coding techniques. By completing the assignment, you will demonstrate the following skills:
+
+- Performing an exploratory analysis of a dataset
+- Using R Markdown to create a report on the web
+- Code and collaborate with others
+
+Make sure you choose one person to accept this assignment and then add your teammates as collaborators. 
+
+## Assignment structure
+
+For this assignment, your team will create an RMarkdown report about the datasets you have selected for your final project.
+
+Your report must include all of the elements from your Final Project Proposal, but the elements should be clarified, improved, and updated from your original submission based on conversations with your group and feedback from the teaching team. 
+
+In addition, your report must include: 
+
+  - A paragraph of summary information, citing at least 5 values calculated from the data  
+  - A table of  aggregated data (e.g., that has been "grouped" by one of your features)  
+  - 3 charts that display information from the data (what you visualize is up to you)  
+
+## File organization
+
+You will keep your code organized in multiple different files. This will help keep your project more modular and clear. You will create six different files for this project:
+
+  - An index.Rmd file that renders your report  
+  - An .R file that calculates summary information to be included in your report  
+  - An .R file that creates a table of summary information to be included in your report  
+  - An .R file that creates your first chart  
+  - An .R file that creates your second chart  
+  - An .R file that creates your third chart  
