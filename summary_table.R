@@ -34,6 +34,9 @@ popularity_sorted <- select(popularity_sorted, -loudness)
 # Move year to front
 final_summary_data <- select(popularity_sorted, year, everything())
 
+# Exports the summarized dataset
+write.csv(final_summary_data, file = "final_summary_data.csv")
+
 
 
 
