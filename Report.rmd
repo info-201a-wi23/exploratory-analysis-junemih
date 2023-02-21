@@ -1,0 +1,122 @@
+---
+title: "report"
+output: html_document
+date: "2023-02-21"
+---
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, out.width = "90%", out.height = "90%", fig.align='center')
+```
+
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Exploratory Analysis Report
+
+
+## Music Trends Through the Years
+### June Hong (junehong@uw.edu), Deborah Kwon (dnkwon@uw.edu), Abigail Setiawan (tsetia@uw.edu), Paul Lam (paul0h@uw.edu)
+
+
+```{r}
+original_data <- read.csv("/Users/junem/OneDrive/Desktop/info201/data_moods.csv")
+glimpse(original_data)
+```
+
+
+
+
+```{r pressure, echo=FALSE}
+original_data <- read.csv("/Users/junem/OneDrive/Desktop/info201/data_moods.csv")
+
+
+# Group years together
+grouped_data <- original_data %>%
+  mutate(Year = str_sub(release_date, start = 1, end = 4)) %>%
+  group_by(Year, mood) %>%
+  summarise(mean_valence = mean(valence, na.rm = TRUE))
+
+
+# Define colors for each mood
+mood_colors <- c("Happy" = "#FFC107", "Sad" = "#2196F3", "Energetic" = "#F44336", "Calm" = "#4CAF50")
+
+
+# Create ggplot2 line plot
+ggplot(grouped_data, aes(x = Year, y = mean_valence, color = mood, group = mood)) +
+  geom_line() +
+  scale_color_manual(values = mood_colors) +
+  labs(x = "Year", y = "Mean Valence", title = "Mood Trends over Time") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+
+```
+
+
+In our first chart, we can see that happy songs dominated from 1963 up until 2000. This is most likely because energetic and calm songs were not tracked at the time. However, when looking at sad and happy songs, the typical trend for when the valence of happy songs dropped was because of major events taking place both political and economical. Taking a look at the early 1990's recession, the first few years of the recession resulted in an increase of sad songs and decrease of happy songs. Another example is from 2007 to 2008, happy music dropped when a recession first took place. We can also take a look at around 2019 and 2020 when COVID 19 happened, there was a drop in happy music and sad music dominated. This is due to many factors caused by the pandemic and many more issues. This resulted in an increase of mental health issues, economical issues, and sociological issues that ultimately brought down everyone's mood which can be seen through the music being put out. Another case to look at was 1995 to 1999 where energetic music was soaring and happy music valence was high for the most part. This was the dot com era where many became rich and where massive growth of the internet happened. However, not soon after, the dot com bust which caused the stock market to crash in 2000, completely plummeting everyone's mood hence the drastic drop in happy music.
+
+
+```{r pressure, echo=FALSE}
+# Group data by year and calculate the average song length for each year
+# in order to find the time of the song. I divided a couple of lengths by actual song times and the number
+# to get the time is to multiply by 1.673998045e-5
+grouped_data <- original_data %>%
+  mutate(year = str_sub(release_date, start = 1, end = 4),
+         mean_length = length * 1.673998045e-5) %>%
+  group_by(year) %>%
+  summarise(song_length = mean(mean_length, na.rm = TRUE))
+
+
+# Create ggplot2 bar graph
+ggplot(grouped_data, aes(x = year, y = song_length)) +
+  geom_bar(stat = "identity", fill = "#2196F3") +
+  labs(x = "Year", y = "Song length (seconds)", title = "Average Song Length by Year") +
+  theme_minimal()
+```
+
+
+In our second chart, it is shown that throughout the years, the average length of songs increase and decrease based on what and how much people had to say. The most noticeable year is 1994 which was arguably one of the best years of music of all time. This is because this was the start of pre dot com, people were happy, the state of the economy was recovering from the early 1990's recession, it was a great year for movies, and there was a lot to talk about. Spikes in average song length can also be closely correlated to happy song mood as well. In cases where happy songs had the highest mean valence, song lengths typically had longer times as well. A case study that analyzed conversations among 20,000 people found that happy people tend to be more talkative. This coloration was found based on people who were happier having not only longer conversations but less small chat and more substantive conversations. This study helps show the linkage between people's emotions and moods playing a big role on how much they talk and say or in this case, their music.
+
+
+```{r pressure, echo=FALSE}
+data <- original_data
+
+
+mood_colors <- c("Happy" = "#FFC107", "Sad" = "#2196F3", "Energetic" = "#F44336", "Calm" = "#4CAF50")
+
+
+ggplot(data) +
+  aes(x = mood, y = tempo, color = mood, group = mood) +
+  geom_point() +
+  scale_color_manual(values = mood_colors) +
+  labs(x = "tempo", y = "mood", title = "How tempo affects moods") 
+
+
+```
+
+
+In our third chart, it is shown that the tempo of a song correlates closely with the emotions of the listeners after the song is played. Fast tempos correlate with happiness and feeling energetic, whereas songs with slow tempos correlate closely with feelings of sadness or calm. While this may suggest that music can cause these feelings to arise, it can also be seen as a way of reinforcing existing emotions as well. Perhaps listeners feel validated and can dwell on their emotions better when listening to music that makes them feel well-understood. It is unclear whether, for example, sad people tend to listen to slow music more to reinforce and help them feel understood in their sadness, or if slow music tends to make people feel sad. It could also be a two-way street, where people who feel those emotions tend to be drawn to the correlating music, which further reinforces those emotions and causes them to be more prevalent or strong in the listeners' lives.
+
+
+Link to exploratory analysis here: https://github.com/info-201a-wi23/exploratory-analysis-junemih
+
+
+
+
+
+
+
+
+
