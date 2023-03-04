@@ -1,12 +1,4 @@
-# In our third chart, it is shown that the tempo of a song correlates closely with the emotions of the listeners 
-# after the song is played. Fast tempos correlate with happiness and feeling energetic, whereas songs with slow 
-# tempos correlate closely with feelings of sadness or calm. While this may suggest that music can cause these 
-# feelings to arise, it can also be seen as a way of reinforcing existing emotions as well. Perhaps listeners feel 
-# validated and can dwell on their emotions better when listening to music that makes them feel well-understood. It 
-# is unclear whether, for example, sad people tend to listen to slow music more to reinforce and help them feel 
-# understood in their sadness, or if slow music tends to make people feel sad. It could also be a two-way street, 
-# where people who feel those emotions tend to be drawn to the correlating music, which further reinforces those 
-# emotions and causes them to be more prevalent or strong in the listeners' lives.
+# This chart shows how the tempo of a song correaltes with the emotions of listeners
 
 # Load libraries
 library("tidyverse")
@@ -14,8 +6,7 @@ library("dplyr")
 library("stringr")
 library("ggplot2")
 
-
-original_data <- read.csv("data_moods.csv")
+original_data <- read.csv("/Users/theophilasetiawan/Documents/INFO 201 (main)/Info201code/exploratory-analysis-junemih/data_moods.csv")
 
 
 # Define colors for each mood
