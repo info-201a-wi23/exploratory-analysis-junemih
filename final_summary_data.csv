@@ -1,0 +1,53 @@
+;year;name;album;artist;release_date;popularity;danceability;acousticness;energy;valence;loudness;tempo;time_signature;mood
+1;2018;lovely (with Khalid);lovely (with Khalid);Billie Eilish;2018-04-19;88;351;934;296;0.12;-10.109;115.284;4;Sad
+2;2019;Falling;Fine Line;Harry Styles;2019-12-13;87;567;839;267;0.0592;-6.502;110.011;4;Sad
+3;2019;when the party's over;WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?;Billie Eilish;2019-03-29;87;367;978;111;198;-14.084;82.642;4;Sad
+4;2020;you broke me first;you broke me first;Tate McRae;2020-04-17;87;642;786;374;0.0799;-9.386;124.099;4;Sad
+5;2013;All of Me;Love In The Future (Expanded Edition);John Legend;2013-08-30;85;422;922;264;331;-7.064;119.93;4;Sad
+6;1982;Africa;Toto IV;TOTO;1982-04-08;84;671;257;373;732;-18.064;92.717;4;Happy
+7;1985;Take on Me;Hunting High and Low;a-ha;1985-06-01;84;573;18;902;876;-7.638;84.412;4;Happy
+8;2011;Pumped Up Kicks;Torches;Foster The People;2011-05-23;84;733;145;0.71;965;-5.849;127.975;4;Happy
+9;1969;Here Comes The Sun - Remastered 2009;Abbey Road (Remastered);The Beatles;1969-09-26;83;557;0.0339;0.54;394;-10.484;129.171;4;Happy
+10;1979;Highway to Hell;Highway to Hell;AC/DC;1979-07-27;83;574;61;913;423;-4.793;115.728;4;Happy
+11;1972;Rocket Man (I Think It's Going To Be A Long, Long Time);Honky Chateau;Elton John;1972-05-19;82;601;432;532;341;-9.119;136.571;4;Happy
+12;1977;Mr. Blue Sky;Out of the Blue;Electric Light Orchestra;1977;82;388;652;338;477;-10.054;177.784;4;Happy
+13;2001;Chop Suey!;Toxicity;System Of A Down;2001-09-04;79;419;0.000278;934;286;-3.908;127.288;4;Energetic
+14;2014;Jealous;Jealous;Labrinth;2014-11-21;79;435;873;155;0.0935;-8.948;128.532;3;Sad
+15;1992;Killing In The Name;Rage Against The Machine - XX (20th Anniversary Special Edition);Rage Against The Machine;1992;78;466;0.0266;833;661;-4.215;88.785;4;Energetic
+16;2012;Little Talks;My Head Is An Animal;Of Monsters and Men;2012-01-01;78;457;0.0206;757;417;-5.177;102.961;4;Happy
+17;1973;The Joker;The Joker;Steve Miller Band;1973-01-01;77;596;365;448;796;-9.616;83.293;4;Happy
+18;1981;Start Me Up - Remastered;Tattoo You (2009 Re-Mastered);The Rolling Stones;1981-08-24;77;631;0.0436;932;971;-4.142;122.429;4;Happy
+19;1993;Mr. Jones;August And Everything After;Counting Crows;1993-01-01;77;578;183;817;726;-6.542;141.621;4;Happy
+20;2006;Crazy;St. Elsewhere;Gnarls Barkley;2006-04-24;77;855;0.0505;587;0.64;-4.589;111.97;4;Happy
+21;2006;Dani California;Stadium Arcadium;Red Hot Chili Peppers;2006-05-09;77;556;0.0193;913;0.73;-2.36;96.184;4;Energetic
+22;2004;Duality;Vol. 3: The Subliminal Verses;Slipknot;2004;76;354;0.000237;982;194;-3.026;143.772;4;Energetic
+23;2017;Easily;A Song For Every Moon;Bruno Major;2017-08-31;76;772;491;256;357;-8.545;118.902;3;Sad
+24;2003;Are You Gonna Be My Girl;Get Born;Jet;2003-09-15;75;613;0.00148;953;537;-3.435;105.046;4;Happy
+25;2009;Uprising;The Resistance;Muse;2009-09-10;75;602;0.000202;905;411;-4.046;128.019;4;Energetic
+26;1963;Twist And Shout - Remastered 2009;Please Please Me (Remastered);The Beatles;1963-03-22;74;482;641;849;937;-9.198;124.631;4;Happy
+27;1967;Happy Together;Happy Together;The Turtles;1967;74;584;0.55;367;588;-9.638;120.175;4;Happy
+28;1978;Don't Stop Me Now - 2011 Mix;Jazz (Deluxe Remastered Version);Queen;1978-11-10;74;563;0.0472;865;601;-5.277;156.271;4;Happy
+29;1986;Kiss;Parade - Music from the Motion Picture Under the Cherry Moon;Prince;1986-03-31;73;898;0.0135;271;742;-12.238;111.485;4;Happy
+30;1996;Send Me on My Way;Music From Party of Five;Various Artists;1996-11-12;73;0.5;114;681;745;-9.556;119.46;4;Happy
+31;2000;Papercut;Hybrid Theory (Bonus Edition);Linkin Park;2000-10-24;73;524;0.00022;939;661;-3.994;150.184;4;Energetic
+32;1991;Two Princes;Pocket Full Of Kryptonite;Spin Doctors;1991-08-27;72;543;0.00162;912;836;-10.71;103.731;4;Happy
+33;1999;My Own Worst Enemy;A Place In The Sun;Lit;1999-02-22;72;494;0.00129;946;741;-2.757;103.408;4;Energetic
+34;2005;Better Together;In Between Dreams;Jack Johnson;2005-01-01;72;868;308;347;659;-9.529;110.059;4;Happy
+35;2007;To Build A Home;Ma Fleur;The Cinematic Orchestra;2007-05-07;72;264;885;122;0.0735;-15.399;148.658;4;Sad
+36;1976;Night Moves;Night Moves;Bob Seger;1976-10-22;71;705;432;743;374;-6.631;118.552;4;Happy
+37;1980;Video Killed The Radio Star;The Age Of Plastic;The Buggles;1980-01-10;71;0.68;103;678;251;-11.548;131.165;4;Happy
+38;1998;Dragula;Hellbilly Deluxe;Rob Zombie;1998-01-01;70;591;8.74e-05;963;609;-6.489;125.03;4;Energetic
+39;2008;Savior;Appeal To Reason;Rise Against;2008-01-01;70;339;0.0015;931;467;-3.425;112.548;4;Energetic
+40;1990;What I Like About You;What I Like About You (And Other Romantic Hits);The Romantics;1990;68;542;319;915;0.92;-9.637;159.81;4;Happy
+41;1994;Lovely Day;Lean on Me: The Best of Bill Withers;Bill Withers;1994-08-09;67;693;194;565;692;-12.583;97.937;4;Happy
+42;2016;No Woman;Light Upon the Lake;Whitney;2016-06-03;66;581;893;0.4;433;-8.739;112.331;4;Sad
+43;2015;Should Have Known Better;Carrie & Lowell;Sufjan Stevens;2015-03-31;65;571;979;172;297;-20.7;90.972;4;Sad
+44;1984;Let's Go Crazy;Purple Rain;Prince;1984-06-25;63;309;0.0192;0.93;376;-6.399;195.815;4;Happy
+45;2002;Always;Back Into Your System;Saliva;2002-11-12;63;363;0.0122;906;371;-4.415;181.964;4;Energetic
+46;1983;Talking In Your Sleep;In Heat;The Romantics;1983-02-14;61;0.72;0.0289;967;977;-4.434;129.766;4;Happy
+47;2010;Stupify;The Sickness (10th Anniversary Edition);Disturbed;2010-03-12;61;597;0.00108;939;422;-3.001;98;4;Energetic
+48;1975;Why Can't We Be Friends?;Why Can't We Be Friends?;War;1975-01-01;58;776;0.19;714;962;-9.044;92.448;4;Happy
+49;1987;Dance Little Sister;Introducing The Hardline According To Terence Trent D'Arby;Terence Trent D'Arby;1987-07-06;53;722;161;696;0.93;-11.095;115.397;4;Happy
+50;1966;California Dreamin';If You Can Believe Your Eyes And Ears;The Mamas & The Papas;1966-03;50;554;628;667;597;-10.226;112.749;4;Happy
+51;1995;Wonderwall;(What's the Story) Morning Glory?;Oasis;1995-10-02;15;412;0.00214;844;459;-5.613;174.452;4;Happy
+52;1997;Tubthumping;Tubthumper;Chumbawamba;1997;0;319;118;881;625;-7.244;206.941;4;Happy
