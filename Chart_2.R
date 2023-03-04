@@ -23,7 +23,7 @@ grouped_data <- original_data %>%
 
 
 # Define the years 
-selected_years <- c("2000", "2005", "2010", "2015", "2020")
+selected_years <- c("1994", "2000", "2005", "2010", "2015", "2020")
 
 # Filter the data to include only the selected years
 selected_data <- grouped_data %>% filter(year %in% selected_years)
