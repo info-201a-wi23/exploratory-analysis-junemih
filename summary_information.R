@@ -7,7 +7,7 @@ library("stringr")
 library("ggplot2")
 
 # Load data and name the original dataset original_data
-original_data <- read.csv("/Users/theophilasetiawan/Documents/INFO 201 (main)/INFO 201/exploratory-analysis-junemih/data_moods.csv")
+original_data <- read.csv("/Users/theophilasetiawan/Documents/INFO 201 (main)/Info201code/exploratory-analysis-junemih/data_moods.csv")
 
 # What is the most number of song mood with popularity of more than 50 (popular)?
 popular_songs_mood <- filter(original_data, popularity > 50) %>% 

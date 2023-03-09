@@ -7,7 +7,7 @@ library("stringr")
 library("ggplot2")
 
 ## Load data and name the original dataset original_data
-original_data <- read.csv("/Users/theophilasetiawan/Documents/INFO 201 (main)/INFO 201/exploratory-analysis-junemih/data_moods.csv")
+original_data <- read.csv("/Users/theophilasetiawan/Documents/INFO 201 (main)/Info201code/exploratory-analysis-junemih/data_moods.csv")
 
 # Create a new data frame with selected columns from an existing data frame
 summary_data <- select(original_data, name, album, artist, release_date, popularity, danceability,

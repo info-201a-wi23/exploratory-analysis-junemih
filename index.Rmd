@@ -74,6 +74,12 @@ Our three charts show many different aspects of how music can effect the human p
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, out.width = "90%", out.height = "90%", fig.align='center')
 ```
 
+```{r kable, echo = FALSE}
+table <- read.csv("/Users/theophilasetiawan/Documents/exploratory-analysis-junemih/final_summary_data.csv")
+library(knitr)
+kable(table)
+knitr::kable(head(table))
+```
 
 ```{r load-packages, message=FALSE}
 library(tidyverse)
